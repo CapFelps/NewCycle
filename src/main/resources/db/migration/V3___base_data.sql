@@ -1,0 +1,10 @@
+-- popula tipos de resíduo
+INSERT INTO TIPO_RESIDUO (ID, NOME, DESCRICAO, PERIGOSO)
+VALUES (SEQ_TIPO_RESIDUO.NEXTVAL, 'Plástico', 'Resíduo plástico', 0);
+
+INSERT INTO TIPO_RESIDUO (ID, NOME, DESCRICAO, PERIGOSO)
+VALUES (SEQ_TIPO_RESIDUO.NEXTVAL, 'Orgânico', 'Restos alimentares', 0);
+
+-- popula pontos de destino
+INSERT INTO PONTO_DESTINO (ID, NOME, ENDERECO, TIPO)
+VALUES (SEQ_PONTO_DESTINO.NEXTVAL, 'Recicladora Verde', 'Rod. BR-101 km 45', 'RECICLAGEM');
